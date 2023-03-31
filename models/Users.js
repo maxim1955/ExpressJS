@@ -1,3 +1,5 @@
+"use strict";
+
 const path = require("path")
 const {sequelize} = require("../DB")
 const {DataTypes} = require("sequelize")
@@ -52,4 +54,4 @@ const Students = sequelize.define("Students", {
     timestamps: false,
 });
 
-module.exports = { Students }
+    module.exports = { Students }
